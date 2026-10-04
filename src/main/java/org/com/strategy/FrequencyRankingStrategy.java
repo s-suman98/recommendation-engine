@@ -13,7 +13,7 @@ public class FrequencyRankingStrategy implements  RankingStrategy{
 @Override
 public List< Suggestion > getSuggesiton (List< Suggestion > words) {
 	
-	Collections.sort (words,(a, b)-> a.getWeight () - b.getWeight ());
+	Collections.sort (words,(a, b)-> b.getWeight () - a.getWeight ());
 	
 	return words;
 }

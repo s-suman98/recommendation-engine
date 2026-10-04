@@ -24,7 +24,7 @@ public static void main (String[] args) {
 	
 	AutoCompleteSystem autoCompleteSystem2=new AutoCompleteSystem(new FrequencyRankingStrategy (),4);
 	
-	List<String> result2=autoCompleteSystem.getSuggest ("an");
+	List<String> result2=autoCompleteSystem2.getSuggest ("an");
 	 
 		 System.out.println (result2);
 	 
